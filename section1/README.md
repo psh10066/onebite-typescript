@@ -32,3 +32,9 @@ sudo npm i -g tsx
 # ts 파일 실행
 tsx src/index.ts
 ```
+
+## 컴파일러 옵션 파일 생성
+
+```shell
+tsc --init
+```
