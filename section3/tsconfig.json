@@ -1,0 +1,12 @@
+{
+  "include": ["src"], // 컴파일할 패키지 경로
+  "compilerOptions": {
+    "target": "ESNext", // JS 코드 버전 설정
+    "module": "ESNext", // JS 모듈 시스템 설정 (package.json에 "type": "module" 설정 필요)
+    "outDir": "dist", // 컴파일 결과로 생성될 JS 파일 경로
+    "strict": true, // 엄격한 타입 검사 여부
+//    "strictNullChecks": false, // null 타입이 아닌 변수에 null 할당 검사 여부
+    "moduleDetection": "force", // 각각의 파일을 어떤 모듈로 감지할지 결정 (force: 각 파일을 독립된 모듈로 취급)
+    "skipLibCheck": true, // 타입 정의 파일의 타입 검사 생략 (주로 라이브러리 타입 검사 생략)
+  }
+}
