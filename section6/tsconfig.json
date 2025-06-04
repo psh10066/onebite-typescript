@@ -9,5 +9,6 @@
     "moduleDetection": "force", // 각각의 파일을 어떤 모듈로 감지할지 결정 (force: 각 파일을 독립된 모듈로 취급)
     "skipLibCheck": true, // 타입 정의 파일의 타입 검사 생략 (주로 라이브러리 타입 검사 생략)
     "allowJs": true, // JS 허용 여부
+//    "noImplicitAny": false, // 암시적 any 타입 허용 여부
   }
 }
